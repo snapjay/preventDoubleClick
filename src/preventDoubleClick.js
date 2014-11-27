@@ -26,7 +26,7 @@ angular.module('preventDoubleClick', [])
                     if (ev.charCode == 13 || ev.charCode == 32 ){
                         $scope.disable();
                     }
-                 });
+                });
 
                 $rootScope.$on('preventDoubleClick', function(event, arg){
                     if (arg.action == 'enable'){
@@ -36,13 +36,13 @@ angular.module('preventDoubleClick', [])
 
                 $scope.enable = function(id){
                     if (typeof id =='undefined' || $scope.id == id) {
-                        ele.attr('disabled', 'disabled');
-                        if ($scope.loadingText != "undefined") ele.html($scope.loadingText);
+                        ele.removeAttr('disabled');
+                        ele.html(defaultSaveText);
                     }
                 };
                 $scope.disable = function(){
-                    ele.removeAttr('disabled');
-                    ele.html(defaultSaveText);
+                    ele.attr('disabled', 'disabled');
+                    if ($scope.loadingText != "undefined") ele.html($scope.loadingText);
                 }
             }
         };
