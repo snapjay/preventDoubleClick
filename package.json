@@ -1,12 +1,13 @@
 {
-    "name": "ngCart",
+    "name": "preventDoubleClick",
     "private": false,
     "version": "0.0.1",
-    "description": "ngCart",
+    "description": "AngularJS directive prevents a form getting submitted twice ",
+    "tags":["AngularJS", "directive", "module", "form", "validation"],
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/snapjay/ngcart.git"
+        "url": "https://github.com/snapjay/preventDoubleClick.git"
     },
     "path": {
         "app": "app",
