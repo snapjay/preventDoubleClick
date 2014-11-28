@@ -1,15 +1,11 @@
 {
-  "name": "ngCart",
-  "description": "Shopping Cart built for AngularJS",
+  "name": "preventDoubleClick",
+  "description": "AngularJS directive prevents a form getting submitted twice ",
   "version": "0.0.0",
-  "homepage": "https://github.com/snapjay/ngcart",
+  "homepage": "https://github.com/snapjay/preventDoubleClick",
   "license": "MIT",
   "private": false,
   "dependencies": {
     "angular": "1.2.x",
-    "angular-ui-router": "0.*",
-    "angular-resource": "~1.2.x",
-    "angular-phonecat": "https://github.com/angular/angular-phonecat.git#step-12",
-    "ngcart": "~0.0.1-rc.2"
   }
 }
