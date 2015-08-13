@@ -1,13 +1,5 @@
 angular.module('preventDoubleClick', [])
 
-    .config([function () {
-
-    }])
-
-    .run(['$rootScope', '$http', 'ngPodium', function ($rootScope, $http, ngPodium) {
-
-    }])
-
 
     .directive('preventDouble', ['$rootScope', function($rootScope) {
         return {
